@@ -1,0 +1,221 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----------------------Layout---------------------*/
+
+.page {
+    width: 1100px;
+    height: 1500px;
+    background-color: lightblue;
+}
+
+.header {
+    background-color: deepskyblue;
+    text-align: right;
+    height: 40px;
+}
+
+.menu {
+    display: inline-block;
+    float: left;
+}
+
+.menu__item {
+    display: inline-block;
+    height: 40px;
+    background-color: blue;
+}
+
+.menu__link {
+    display: inline-block;
+    height: 40px;
+    color: lawngreen;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu__link:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.button {
+    height: 20px;
+    color: lawngreen;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    background-color: blue;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button_auth {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+}
+
+.button_reg-page {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+}
+
+.button:hover {
+    color: green;
+    cursor: pointer;
+}
+
+/*----------------------MainPage---------------*/
+
+.main-page {
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/*----------------------UsersPage------------------*/
+
+.users-page {
+    text-align: center;
+}
+
+.user-list {
+    margin-top: 30px;
+}
+
+.user-list__item {
+    list-style: none;
+}
+
+.user-list__link {
+    font-size: 20px;
+    color: midnightblue;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.user-list__link:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/*----------------RegPage--------------*/
+
+.reg-page {
+    text-align: center;
+}
+
+.reg-form {
+    width: 180px;
+    margin-top: 100px;
+}
+
+.button_form {
+    padding: 0;
+    height: 25px;
+    width: 158px;
+    margin-top: 10px;
+}
+
+/*---------------AuthPage--------------*/
+
+.auth-page {
+    text-align: center;
+}
+
+.auth-form {
+    margin-top: 200px;
+    width: 165px;
+}
+
+/*------------UserArticlePage-----------*/
+
+.user-article-page {
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.user-article-page__h1 {
+    margin-top: 20px;
+}
+
+.article-array {
+    text-align: center;
+}
+
+/*---------------UserPage---------------*/
+
+.user-data {
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.field {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button__del-user {
+    display: inline-block;
+    height: 37px;
+    width: 142px;
+    margin-top: 20px;
+}
+
+.article-form {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.article-form__textarea {
+    resize: none;
+}
+
+.button_add-article {
+    display: inline-block;
+    padding:0;
+    height: 30px;
+    width: 159px;
+}
+
+.button_del-article {
+    display: inline-block;
+    height: 36px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.article {
+    width: 525px;
+    margin-top: 30px;
+}
+
+.article__date {
+    font-style: italic;
+}
+
+/*---------------ArticlesPage-----------*/
+
+.article__author {
+    font-style: italic;
+}
